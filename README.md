@@ -33,3 +33,15 @@ nxapi sandbox
 **Sandbox**
 
 The NXAPI sandbox provides for an easy way to get to know the API through a website where you can write your commands and see both the output and how the API commands should be
+
+------
+
+**Usage**
+
+Start with creating a connection to the Nexus switch with the New-NXConnection command. If you plan to connect to multiple switches place the output of the connection command in a variable which can be used in subsequent commands to the same switch. If only one connection is in use you can omit the connection parameter and use the one added as a global parameter.
+
+To get information on the provided functions run the built in help function in Powershell
+
+```powershell
+Get-Help "function name" 
+```
